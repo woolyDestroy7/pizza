@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="main">Main</a>
+        <a href="#" class="rest">order</a>
+        <a href="#" class="con">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h1 id="header">Black Goose Bistro | Pizza-on-Demand</h1>
+        <p>Our 12th wood-fired pizzas are available for delivery. Build your custom pizza, and we'll deliver it within an hour.</p>
+
+        <div class="info">
+            <h3>Your Information</h3>
+            <h3>Name: <input type="text"></h3>
+            <h3>Address: <input type="text"></h3>
+            <h3>Telephone Number: <input type="text"></h3>
+            <h3>Email: <input type="text"></h3>
+            <h3>Delivery instructions (No more than 400 characters long):</h3>
+            <input class="inst" type="text">
+        </div>
+
+        <h1>Design Your Dream Pizza:</h1>
+
+        <div class="specs">
+            <div class="crust">
+                <h3>Crust (Choose one):</h3>
+                <h4><input type="radio" name="crust"> Classic white</h4>
+                <span><h4><input type="radio" name="crust"> Multi grain</h4></span>
+                <h4><input type="radio" name="crust"> Cheese-stuffed crust</h4>
+                <h4><input type="radio" name="crust"> Gluten-free</h4>
+            </div>
+
+            <div class="toppings">
+                <h3>Toppings (Choose as many as you want):</h3>
+                <h4><input type="checkbox"> Pepperoni</h4>
+                <h4><input type="checkbox"> Mushrooms</h4>
+                <h4><input type="checkbox"> Onions</h4>
+                <h4><input type="checkbox"> Sausage</h4>
+            </div>
+
+            <div class="num">
+                <h3>Number</h3>
+                <h4>How many pizzas: <input min="1" type="number"></h4>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
